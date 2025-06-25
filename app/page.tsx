@@ -12,7 +12,7 @@ export default function Home() {
     {
       name: "Sourdough Loaf",
       description: "Artisan sourdough, slow-fermented for a rich, tangy flavor and chewy crust.",
-      image: "https://images.unsplash.com/photo-1596543138378-d5a22b070490?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://storage.googleapis.com/magnolia-storage-dev-test-123/images/LvXZZB1d30/image.jpg",
     },
     {
       name: "Rye Bread",
