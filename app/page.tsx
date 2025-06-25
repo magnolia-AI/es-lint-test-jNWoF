@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { useToast } from "@/hooks/use-toast"
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   const { toast } = useToast()
@@ -42,8 +43,10 @@ export default function Home() {
           <p className="mt-6 text-xl max-w-[700px] mx-auto drop-shadow-md">
             Experience the warmth and aroma of artisan bread, baked with passion and the finest ingredients.
           </p>
-          <Button size="lg" className="mt-8 bg-white text-primary hover:bg-gray-100">
-            Shop Our Breads
+          <Button size="lg" className="mt-8 bg-white text-primary hover:bg-gray-100" asChild>
+            <Link href="/shop">
+              Shop Our Breads
+            </Link>
           </Button>
         </div>
       </section>
@@ -90,4 +93,6 @@ export default function Home() {
     </div>
   )
 }
+
+
 
